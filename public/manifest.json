@@ -3,17 +3,10 @@
     "name": "BookmarkSync",
     "version": "0.1.0",
     "description": "browser extension to perform bookmark synchronization accross browsers.",
-    "permission": [
-        "activeTab",
-        "scripting",
-        "bookmarks"
-    ],
-    "background": {
-        "service_worker": "index.js"
-    },
+    "permission": [],
     "icons": {
-        "64": "",
-        "128": "",
-        "256": ""
+        "64": "reload.svg",
+        "128": "reload.svg",
+        "256": "reload.svg"
     }
 }
