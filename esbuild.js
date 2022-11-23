@@ -1,4 +1,7 @@
+import * as dotenv from 'dotenv';
 import { build, buildSync } from 'esbuild';
+
+dotenv.config();
 
 const config = {
     entryPoints: ['src/index.ts'],
@@ -20,6 +23,7 @@ if (process.env.NODE_ENV == 'production') {
         ...config
     });
     console.log(results);
+    console.log(process.env.NODE_ENV);
 }
 
 
