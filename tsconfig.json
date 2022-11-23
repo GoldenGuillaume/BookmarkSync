@@ -8,6 +8,7 @@
     "noImplicitAny": false,
     "esModuleInterop": true,
     "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
     "outDir": "dist"
   },
   "exclude": ["node_modules", "dist"]
