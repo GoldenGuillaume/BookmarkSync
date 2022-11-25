@@ -4,6 +4,7 @@
     "declaration": true,
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
+    "typeRoots": ["node_modules/@types", "node_modules/web-ext-types"],
     "strict": true,
     "noImplicitAny": false,
     "esModuleInterop": true,
